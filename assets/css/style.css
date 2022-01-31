@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:white;
+}
+
+header {
+    background-color:rgba(80, 137, 145, 1);
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(0, 67, 70, 1);
+}
+
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration-color: black;
+    float: right;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/IMG_6993.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.about-me {
+    text-align: left;
+}
