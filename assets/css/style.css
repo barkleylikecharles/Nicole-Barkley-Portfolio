@@ -11,11 +11,13 @@ body{
 
 header {
     background-color:rgba(80, 137, 145, 1);
+    line-height: 2;
 }
 
 header a {
     text-decoration: none;
     color: rgba(0, 67, 70, 1);
+    padding: 8px;
 }
 
 header nav ul {
@@ -29,14 +31,14 @@ header nav ul {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/IMG_6993.png");
-    height: 100%;
+    background-image: url("./images/banner-g5d138f9e4_1920.jpg");
+    line-height: 10;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
 }
+
 .flex-container {
     display: flex;
     text-overflow: wrap;
@@ -53,4 +55,31 @@ header nav ul {
 .right-column {
     padding: 10px;
     flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.work-section {
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.contact-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text: black;
+    float: right;
+    text-decoration: none;
+    
+}
+
+.contact-nav ul li {
+    padding: 10px;
+    float: right;
 }
