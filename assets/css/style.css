@@ -12,24 +12,28 @@ body{
 header {
     background-color:rgba(80, 137, 145, 1);
     line-height: 2;
+    display: flex;
+
 }
 
 header a {
     text-decoration: none;
     color: rgba(0, 67, 70, 1);
-    padding: 8px;
+    padding: 7px;
 }
 
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
+header nav {
+    padding: 10px;
+}
+
+img {
+    float: left;
+    width: 500px;
+    height: 100px;
+    object-fit: cover;
     justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    text: black;
-    float: right;
+    
 }
-
 .hero-image {
     background-image: url("./images/banner-g5d138f9e4_1920.jpg");
     line-height: 10;
@@ -37,6 +41,12 @@ header nav ul {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.hero-text {
+    color: white;
+    text-align: center;
+
 }
 
 .flex-container {
@@ -50,36 +60,37 @@ header nav ul {
     padding: 10px;
     border-right: black solid;
     text-align: right;
-    
+    text-decoration: none;
 }
 .right-column {
     padding: 10px;
     flex: 4;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
  
 .work-section {
    border-style: solid;
    border-width: 1px;
    border-radius: 10px;
-   padding: 10px;
+   padding: 20px;
+   background-color: lightgray;
+   text-align: center;
 }
 
-.contact-nav ul {
+.contact-nav ul{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
-    text: black;
-    float: right;
+    color: black;
     text-decoration: none;
-    
 }
 
 .contact-nav ul li {
     padding: 10px;
-    float: right;
+    text-decoration: none; 
+    list-style: none;
+    text-align: right;
 }
+ 
