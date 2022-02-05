@@ -52,7 +52,6 @@ main aside nav {
 }
 main aside nav ul li{
     display: inline;
-
 }
 .hero-image {
     background-image: url("./images/banner-g5d138f9e4_1920.jpg");
@@ -107,31 +106,20 @@ main aside nav ul li{
     flex-direction: column;
 }
 
-#contact-info {
+#contact-me {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     padding: 10px;
     width: 100%;
-}
-
-#contact-info ul {
-    display: flex;
-    justify-content: flex-end;
-
-}
-#contact-info ul li {
-    padding: 10px;
-}
-/* .contact-nav ul{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    color: black;
+    font-size: 30px;
     text-decoration: none;
-} */
+    
+}
 
-/* .contact-nav ul li {
-    padding: 10px;
-    text-decoration: none; 
-    text-align: right; */
-/* } */
+#contact-me ul {
+    display: flex;
+
+}
+#contact-me ul li {
+    padding: 25px;
+}
